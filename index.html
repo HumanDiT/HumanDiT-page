@@ -173,7 +173,6 @@
                     margin: 0 10px;
                 }
 
-
                 .item-gif-container {
                     width: 48%; /* 占据父元素的80%宽度 */
                     margin: auto; /* 水平方向上创建相同的空白 */
@@ -196,6 +195,11 @@
 
                 .content-description {
                     margin-top: 10px; /* Add some space above the description */
+                }
+                .video-player2 {
+                    width: 640px;
+                    height: 480px;
+                    object-fit: contain; /* 保持视频比例，完整显示 */
                 }
             </style>
             <style>
@@ -269,13 +273,13 @@
             <div class="video-item">
 
                 <div class="column">
-                    <video class="video-player" poster="" id="tree2" controls>
+                    <video class="video-player2" poster="" id="tree2" controls>
                         <source src="content/video_continue/4.mp4" type="video/mp4">
                     </video>
                 </div>
 
                 <div class="column">
-                    <video class="video-player" poster="" id="tree2" controls>
+                    <video class="video-player2"  poster="" id="tree2" controls>
                         <source src="content/video_continue/2.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -284,13 +288,13 @@
             <div class="video-item">
 
                 <div class="column">
-                    <video class="video-player" poster="" id="tree2" controls>
+                    <video class="video-player2" poster="" id="tree2" controls>
                         <source src="content/video_continue/3.mp4" type="video/mp4">
                     </video>
                 </div>
 
                 <div class="column">
-                    <video class="video-player" poster="" id="tree2" controls>
+                    <video class="video-player2" poster="" id="tree2" controls>
                         <source src="content/video_continue/1.mp4" type="video/mp4">
                     </video>
                 </div>
